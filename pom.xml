@@ -33,6 +33,11 @@
                 <version>11.0.15</version> <!-- Usa una versión compatible con JDK 17 -->
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version> <!-- Versión moderna compatible con JDK 17 -->
+            </plugin>
+            <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
